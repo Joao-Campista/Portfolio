@@ -41,7 +41,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 70px;
+    height: 60px;
     max-width: 1240px;
     margin: 0 auto;
     padding: 0 4%;
@@ -53,7 +53,7 @@ body {
 
 .interface-bot-header {
     background-color: #2A3344;
-    height: 70px;
+    height: 65px;
 }
 
 .bot-header {
@@ -67,7 +67,7 @@ body {
 }
 
 .logo a img {
-    width: 50px;
+    width: 40px;
 }
 
 .menu-desktop ul li {
@@ -79,7 +79,7 @@ body {
 .menu-desktop ul li a {
     color: #827c5e;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
     display: inline-block;
     transition: .2s;
