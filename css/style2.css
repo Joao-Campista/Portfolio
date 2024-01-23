@@ -31,6 +31,10 @@ body {
     transform: scale(1.05);
 }
 
+.flex {
+    display: flex;
+}
+
 
 /* ESTILO DO CABEÇALHO */
 
@@ -80,7 +84,7 @@ header nav ul li {
     padding: 0 50px;
 }
 
-/*ESTILOD DO TOPO DO SITE*/
+/*ESTILO DO TOPO DO SITE*/
 
 section.topo-do-site {
     padding: 40px 4%;
@@ -95,10 +99,17 @@ section.topo-do-site {
     color: #fff;
     font-size: 50px;
     line-height: 48px;
+    font-weight: 700;
 }
 
 .topo-do-site .topo-site p {
     color: #fff;
     font-size: 20px;
     margin: 15px 0;
+}
+
+/* ESTILO ABOUT ME */
+
+main {
+    background-color: #052031;
 }
