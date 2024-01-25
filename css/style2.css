@@ -35,6 +35,18 @@ body {
     display: flex;
 }
 
+main {
+    background-color: #052031;
+}
+
+.interface h2 {
+    font-size: 40px;
+    color: #F63B4E;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* ESTILO DO CABEÇALHO */
 
@@ -110,6 +122,31 @@ section.topo-do-site {
 
 /* ESTILO ABOUT ME */
 
-main {
-    background-color: #052031;
+section.sobre {
+    padding: 50px 4%;
+}
+
+section.sobre .flex {
+    align-items: center;
+    gap: 60px;
+}
+
+section.sobre .txt-sobre {
+    color: #fff;
+}
+
+section.sobre .img-sobre img {
+    width: 400px
+}
+
+section.sobre .txt-sobre p {
+    font-size: 18px;
+    margin: 10px 0;
+    text-align: justify;
+}
+
+/* ESTILO SKILLS */
+
+section.skills {
+    padding: 50px 4%;
 }
