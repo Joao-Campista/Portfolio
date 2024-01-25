@@ -42,10 +42,11 @@ main {
 .interface h2 {
     font-size: 40px;
     color: #F63B4E;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: bold;
 }
 
 /* ESTILO DO CABEÇALHO */
@@ -149,4 +150,28 @@ section.sobre .txt-sobre p {
 
 section.skills {
     padding: 50px 4%;
+}
+
+section.skills .box-skill {
+    color: #fff;
+    width: 25%;
+    padding: 40px 20px;
+    border-radius: 20px;
+    margin: 0 30px;
+    cursor: pointer;
+    transition: .3s;
+    height: 300px;
+}
+
+section.skills .box-skill:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #F63B4E;
+}
+
+section.skills .flex {
+    justify-content: center;
+}
+
+section.skills .box-skill p {
+    margin-top: 20px
 }
