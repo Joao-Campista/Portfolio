@@ -158,7 +158,6 @@ section.skills .box-skill {
     padding: 40px 20px;
     border-radius: 20px;
     margin: 0 30px;
-    cursor: pointer;
     transition: .3s;
     height: 300px;
 }
