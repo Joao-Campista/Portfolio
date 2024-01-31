@@ -403,6 +403,10 @@ footer .foot-line>span {
     header nav ul li {
         padding: 0 30px;
     }
+
+    .overlay {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 690px) {
@@ -455,9 +459,7 @@ footer .foot-line>span {
         width: 70%;
     }
 
-    .overlay {
-        font-size: 16px;
-    }
+
 }
 
 @media screen and (max-width: 540px) {
