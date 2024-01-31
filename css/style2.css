@@ -312,12 +312,25 @@ footer .flex {
     align-items: center;
 }
 
-.foot-contato-box {
+.foot-contato-gp>.foot-contato-box {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 10px 0;
+    width: 50%;
+}
+
+footer .flex>.foot-contato-box {
     width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foot-contato-gp {
+    display: flex;
+    margin: 10px 0;
+    width: 40%;
 }
 
 footer .logo-footer img {
@@ -332,9 +345,177 @@ footer .foot-line>span {
     margin-top: 30px;
 }
 
-/*
-@media screen and (max-width: 1230px) {
-    .flex {
+
+@media screen and (max-width: 980px) {
+    .foot-contato-gp {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .interface h2 {
+        font-size: 36px;
+    }
+
+    .topo-do-site .topo-site h1 {
+        font-size: 44px;
+        line-height: 42px;
+        font-weight: 700;
+    }
+
+    .topo-do-site .topo-site p {
+        font-size: 17px;
+    }
+
+    section.sobre .img-sobre img {
+        width: 300px
+    }
+
+    section.sobre .txt-sobre p {
+        font-size: 14px;
+    }
+
+    section.skills .box-skill p {
+        font-size: 14px;
+    }
+
+    footer {
+        padding: 50px 1%;
+    }
+
+    footer span {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 825px) {
+    .topo-site {
+        width: 45%;
+        margin-top: 17%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    header nav ul li {
+        padding: 0 30px;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .topo-site {
+        width: 50%;
+        margin-top: 20%;
+    }
+
+    section.skills .flex {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    section.skills .box-skill {
+        width: 50%;
+        padding: 0 20px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    section.skills .box-skill p {
+        text-align: center;
+    }
+
+
+    section.portfolio .img-port {
+        height: 320px;
+    }
+
+    section.sobre .img-sobre img {
+        width: 230px
+    }
+}
+
+@media screen and (max-width: 630px) {
+    header .btn-contato {
+        display: none;
+    }
+
+    .topo-site {
+        width: 55%;
+        margin-top: 25%;
+    }
+
+    .foot-contato-gp>.foot-contato-box {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    header nav ul {
+        display: none;
+    }
+
+    .topo-site {
+        width: 65%;
+        margin-top: 30%;
+    }
+
+    section.skills .box-skill {
+        width: 70%;
+    }
+
+    section.portfolio .img-port {
+        height: 250px;
+    }
+
+    section.sobre .flex {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+}
+
+@media screen and (max-width: 480px) {
+    .topo-site {
+        width: 68%;
+        margin-top: 40%;
+    }
+
+}
+
+@media screen and (max-width: 440px) {
+    .topo-site {
+        width: 68%;
+        margin-top: 45%;
+    }
+
+    .foot-contato-gp>.foot-contato-box {
+        width: 90%;
+    }
+
+    section.skills .box-skill {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    footer .logo-footer img {
+        display: none;
+    }
+
+    footer .flex {
         flex-direction: column;
     }
-}*/
+
+    .topo-site {
+        width: 75%;
+        margin-top: 45%;
+    }
+}
