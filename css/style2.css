@@ -498,8 +498,18 @@ footer .foot-line>span {
 
 @media screen and (max-width: 440px) {
     .topo-site {
-        width: 68%;
-        margin-top: 45%;
+        width: 75%;
+        margin-top: 55%;
+    }
+
+    .topo-do-site .topo-site h1 {
+        font-size: 40px;
+        line-height: 40px;
+        font-weight: 700;
+    }
+
+    .topo-do-site .topo-site p {
+        font-size: 17px;
     }
 
     .foot-contato-gp>.foot-contato-box {
